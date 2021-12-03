@@ -1,0 +1,13 @@
+subscription NewMessageReceived {
+  newMessageReceived {
+    conversationId
+    body
+    updatedAt
+    createdAt
+    sender {
+      id
+      username
+    }
+    id
+  }
+}

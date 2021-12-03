@@ -1,0 +1,6 @@
+mutation CreateImageSignature {
+  createImageSignature {
+    signature
+    timestamp
+  }
+}

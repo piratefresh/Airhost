@@ -1,0 +1,14 @@
+fragment ItemSnippet on Item {
+  id
+  name
+  rarity
+  rarityText
+  price
+  description
+  type
+  source
+  encumbrance
+  image
+  createdAt
+  updatedAt
+}

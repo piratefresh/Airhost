@@ -1,0 +1,3 @@
+.link {
+  @apply ml-8 font-medium text-gray-900 dark:text-white cursor-pointer py-4;
+}

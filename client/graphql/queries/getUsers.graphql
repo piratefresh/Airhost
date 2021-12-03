@@ -1,0 +1,12 @@
+query GetUsers($searchTerm: String!) {
+  getUsers(searchTerm: $searchTerm) {
+    users {
+      id
+      username
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

@@ -1,0 +1,18 @@
+fragment ConversationSnippet on Conversation {
+  id
+  updatedAt
+  createdAt
+  messages {
+    id
+    body
+    sender {
+      id
+      username
+    }
+    updatedAt
+  }
+  participants {
+    id
+    username
+  }
+}

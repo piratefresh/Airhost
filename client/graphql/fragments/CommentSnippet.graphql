@@ -1,0 +1,18 @@
+fragment CommentSnippet on Comment {
+  id
+  createdAt
+  updatedAt
+  text
+  points
+  authorId
+  parentCommentId
+  post {
+    id
+    title
+    text
+  }
+  author {
+    id
+    username
+  }
+}
